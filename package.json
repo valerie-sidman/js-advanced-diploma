@@ -1,0 +1,47 @@
+{
+  "name": "js-advanced-diploma",
+  "version": "1.0.0",
+  "description": "AJS. Retro Game",
+  "main": "index.js",
+  "scripts": {
+    "start": "webpack-dev-server --mode development",
+    "test": "jest",
+    "lint": "eslint .",
+    "build": "webpack --mode production"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/valerie-sidman/js-advanced-diploma.git"
+  },
+  "keywords": [
+    "game"
+  ],
+  "author": "valerie-sidman",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/valerie-sidman/js-advanced-diploma/issues"
+  },
+  "homepage": "https://github.com/valerie-sidman/js-advanced-diploma#readme",
+  "devDependencies": {
+    "@babel/cli": "^7.12.1",
+    "@babel/core": "^7.12.3",
+    "@babel/preset-env": "^7.12.1",
+    "babel-jest": "^26.6.1",
+    "babel-loader": "^8.1.0",
+    "css-loader": "^5.0.0",
+    "eslint": "^7.12.1",
+    "eslint-config-airbnb-base": "^14.2.0",
+    "eslint-plugin-import": "^2.22.1",
+    "html-webpack-plugin": "^4.5.0",
+    "jest": "^26.6.1",
+    "mini-css-extract-plugin": "^1.2.0",
+    "url-loader": "^4.1.1",
+    "webpack": "^4.43.0",
+    "webpack-cli": "^3.3.11",
+    "webpack-dev-server": "^3.10.3",
+    "webpack-serve": "^3.2.0"
+  },
+  "dependencies": {
+    "core-js": "^3.6.5"
+  }
+}
