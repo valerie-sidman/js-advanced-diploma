@@ -33,7 +33,7 @@ export default class GameController {
 
   initGame() {
     this.loadGame();
-    const maxScore = this.gameState.maxScore ? this.gameState.maxScore : 0;
+    const maxScore = this.gameState && this.gameState.maxScore ? this.gameState.maxScore : 0;
     this.gameState = new GameState(maxScore);
     this.gamePlay.drawUi(this.gameState.theme);
     const playerTeam = generateTeam([Bowman, Swordsman], 1, 2);
